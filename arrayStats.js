@@ -1,20 +1,3 @@
-// function arrayStats(arr) {
-//     let sum = 0;
-//     for(let i = 0; i < arr.length; i++){
-//         sum+= arr[i];
-//     }
-//     return {  
-//     sum : sum,
-//     average : sum/(arr.length-1),
-//     maximum : Math.max(arr),
-//     minimum : Math.min(arr),
-//     stats : arrayStats()
-//     }
-    
-// }
-// console.log(arrayStats([1, 2, 3, 4, 5]))
-
-
 function arrayStats(arr) {
     // Initialize variables for sum, min, max, and average
     let sum = 0;
